@@ -1,0 +1,550 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9D1D7E8324347D40003E9732 /* BeansView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D1D7E8224347D40003E9732 /* BeansView.swift */; };
+		9D1D7E8524348357003E9732 /* BeansStages.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D1D7E8424348357003E9732 /* BeansStages.swift */; };
+		9D1D7E8724348546003E9732 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D1D7E8624348546003E9732 /* HeaderView.swift */; };
+		9D1D7E892434858A003E9732 /* World.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D1D7E882434858A003E9732 /* World.swift */; };
+		9D1D7E8B24348598003E9732 /* WorldDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D1D7E8A24348598003E9732 /* WorldDetail.swift */; };
+		9D1D7E8E24348685003E9732 /* HeaderModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D1D7E8D24348685003E9732 /* HeaderModel.swift */; };
+		9D1D7E91243486D0003E9732 /* HeaderData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D1D7E90243486D0003E9732 /* HeaderData.swift */; };
+		9D1D7E952434A2F2003E9732 /* WarmData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D1D7E942434A2F2003E9732 /* WarmData.swift */; };
+		9D1D7E972434AA0A003E9732 /* ColdRatingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D1D7E962434AA0A003E9732 /* ColdRatingView.swift */; };
+		9D1D7E992434AD17003E9732 /* WarmDrinksModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D1D7E982434AD17003E9732 /* WarmDrinksModel.swift */; };
+		9D1D7E9B2434B32C003E9732 /* WarmBeverageDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D1D7E9A2434B32C003E9732 /* WarmBeverageDetailView.swift */; };
+		9D1D7E9D2434D979003E9732 /* AppBaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D1D7E9C2434D979003E9732 /* AppBaseView.swift */; };
+		9D63DA9024361085000BD2A2 /* CoffeeFacts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D63DA8F24361085000BD2A2 /* CoffeeFacts.swift */; };
+		9D63DA92243610AA000BD2A2 /* FactsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D63DA91243610AA000BD2A2 /* FactsModel.swift */; };
+		9D63DA942436113F000BD2A2 /* FactsData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D63DA932436113F000BD2A2 /* FactsData.swift */; };
+		9D63DA96243614C5000BD2A2 /* WarmDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D63DA95243614C5000BD2A2 /* WarmDetail.swift */; };
+		9D63DA9824361C39000BD2A2 /* BeansData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D63DA9724361C39000BD2A2 /* BeansData.swift */; };
+		9D63DA9A24361CA9000BD2A2 /* BeansModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D63DA9924361CA9000BD2A2 /* BeansModel.swift */; };
+		9D63DA9D2436391D000BD2A2 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D63DA9C2436391D000BD2A2 /* Coordinator.swift */; };
+		9D63DAA024363AFB000BD2A2 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D63DA9F24363AFB000BD2A2 /* LocationManager.swift */; };
+		9D63DAA224377F2F000BD2A2 /* Landmark.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D63DAA124377F2F000BD2A2 /* Landmark.swift */; };
+		9D63DAA4243780F8000BD2A2 /* LandmarkAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D63DAA3243780F8000BD2A2 /* LandmarkAnnotation.swift */; };
+		9D63DAA624378979000BD2A2 /* PlaceListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D63DAA524378979000BD2A2 /* PlaceListView.swift */; };
+		9D63DAA8243C71F0000BD2A2 /* ColdData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D63DAA7243C71F0000BD2A2 /* ColdData.swift */; };
+		9D63DAAA243C7250000BD2A2 /* ColdDrinksModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D63DAA9243C7250000BD2A2 /* ColdDrinksModel.swift */; };
+		9D63DAAC243C7389000BD2A2 /* ColdDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D63DAAB243C7389000BD2A2 /* ColdDetail.swift */; };
+		9D63DAAE243C749F000BD2A2 /* WarmRatingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D63DAAD243C749F000BD2A2 /* WarmRatingsView.swift */; };
+		9D63DAB0243C7A7C000BD2A2 /* ColdBeverageDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D63DAAF243C7A7C000BD2A2 /* ColdBeverageDetailView.swift */; };
+		9D63DAB2243DBEB5000BD2A2 /* MapViewDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D63DAB1243DBEB5000BD2A2 /* MapViewDetail.swift */; };
+		9D7CFF7A243E05DD006AF5BD /* Map.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D7CFF79243E05DD006AF5BD /* Map.swift */; };
+		9D7CFF7C243E0661006AF5BD /* MapModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D7CFF7B243E0661006AF5BD /* MapModel.swift */; };
+		9DA56B662440C83B0079F05C /* CoffeeWorldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DA56B652440C83B0079F05C /* CoffeeWorldView.swift */; };
+		9DBF4CAF242E252C008E9479 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DBF4CAE242E252C008E9479 /* AppDelegate.swift */; };
+		9DBF4CB1242E252C008E9479 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DBF4CB0242E252C008E9479 /* SceneDelegate.swift */; };
+		9DBF4CB4242E252C008E9479 /* Black_Gold.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9DBF4CB2242E252C008E9479 /* Black_Gold.xcdatamodeld */; };
+		9DBF4CB6242E252C008E9479 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DBF4CB5242E252C008E9479 /* ContentView.swift */; };
+		9DBF4CB8242E252F008E9479 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9DBF4CB7242E252F008E9479 /* Assets.xcassets */; };
+		9DBF4CBB242E252F008E9479 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9DBF4CBA242E252F008E9479 /* Preview Assets.xcassets */; };
+		9DBF4CBE242E252F008E9479 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9DBF4CBC242E252F008E9479 /* LaunchScreen.storyboard */; };
+		9DBF4CC7242E3BE7008E9479 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DBF4CC6242E3BE7008E9479 /* Home.swift */; };
+		9DBF4CC9242E3C03008E9479 /* Cold.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DBF4CC8242E3C03008E9479 /* Cold.swift */; };
+		9DBF4CCB242E3C0E008E9479 /* Warm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DBF4CCA242E3C0E008E9479 /* Warm.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		9D1D7E8224347D40003E9732 /* BeansView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeansView.swift; sourceTree = "<group>"; };
+		9D1D7E8424348357003E9732 /* BeansStages.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeansStages.swift; sourceTree = "<group>"; };
+		9D1D7E8624348546003E9732 /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		9D1D7E882434858A003E9732 /* World.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = World.swift; sourceTree = "<group>"; };
+		9D1D7E8A24348598003E9732 /* WorldDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorldDetail.swift; sourceTree = "<group>"; };
+		9D1D7E8D24348685003E9732 /* HeaderModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderModel.swift; sourceTree = "<group>"; };
+		9D1D7E90243486D0003E9732 /* HeaderData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderData.swift; sourceTree = "<group>"; };
+		9D1D7E942434A2F2003E9732 /* WarmData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WarmData.swift; sourceTree = "<group>"; };
+		9D1D7E962434AA0A003E9732 /* ColdRatingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColdRatingView.swift; sourceTree = "<group>"; };
+		9D1D7E982434AD17003E9732 /* WarmDrinksModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WarmDrinksModel.swift; sourceTree = "<group>"; };
+		9D1D7E9A2434B32C003E9732 /* WarmBeverageDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WarmBeverageDetailView.swift; sourceTree = "<group>"; };
+		9D1D7E9C2434D979003E9732 /* AppBaseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppBaseView.swift; sourceTree = "<group>"; };
+		9D63DA8F24361085000BD2A2 /* CoffeeFacts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoffeeFacts.swift; sourceTree = "<group>"; };
+		9D63DA91243610AA000BD2A2 /* FactsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FactsModel.swift; sourceTree = "<group>"; };
+		9D63DA932436113F000BD2A2 /* FactsData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FactsData.swift; sourceTree = "<group>"; };
+		9D63DA95243614C5000BD2A2 /* WarmDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WarmDetail.swift; sourceTree = "<group>"; };
+		9D63DA9724361C39000BD2A2 /* BeansData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeansData.swift; sourceTree = "<group>"; };
+		9D63DA9924361CA9000BD2A2 /* BeansModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeansModel.swift; sourceTree = "<group>"; };
+		9D63DA9C2436391D000BD2A2 /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
+		9D63DA9F24363AFB000BD2A2 /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
+		9D63DAA124377F2F000BD2A2 /* Landmark.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Landmark.swift; sourceTree = "<group>"; };
+		9D63DAA3243780F8000BD2A2 /* LandmarkAnnotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkAnnotation.swift; sourceTree = "<group>"; };
+		9D63DAA524378979000BD2A2 /* PlaceListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceListView.swift; sourceTree = "<group>"; };
+		9D63DAA7243C71F0000BD2A2 /* ColdData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColdData.swift; sourceTree = "<group>"; };
+		9D63DAA9243C7250000BD2A2 /* ColdDrinksModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColdDrinksModel.swift; sourceTree = "<group>"; };
+		9D63DAAB243C7389000BD2A2 /* ColdDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColdDetail.swift; sourceTree = "<group>"; };
+		9D63DAAD243C749F000BD2A2 /* WarmRatingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WarmRatingsView.swift; sourceTree = "<group>"; };
+		9D63DAAF243C7A7C000BD2A2 /* ColdBeverageDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColdBeverageDetailView.swift; sourceTree = "<group>"; };
+		9D63DAB1243DBEB5000BD2A2 /* MapViewDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewDetail.swift; sourceTree = "<group>"; };
+		9D7CFF79243E05DD006AF5BD /* Map.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Map.swift; sourceTree = "<group>"; };
+		9D7CFF7B243E0661006AF5BD /* MapModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapModel.swift; sourceTree = "<group>"; };
+		9DA56B652440C83B0079F05C /* CoffeeWorldView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoffeeWorldView.swift; sourceTree = "<group>"; };
+		9DBF4CAB242E252C008E9479 /* Black Gold.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Black Gold.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9DBF4CAE242E252C008E9479 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9DBF4CB0242E252C008E9479 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		9DBF4CB3242E252C008E9479 /* Black_Gold.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Black_Gold.xcdatamodel; sourceTree = "<group>"; };
+		9DBF4CB5242E252C008E9479 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		9DBF4CB7242E252F008E9479 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9DBF4CBA242E252F008E9479 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		9DBF4CBD242E252F008E9479 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9DBF4CBF242E252F008E9479 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9DBF4CC6242E3BE7008E9479 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		9DBF4CC8242E3C03008E9479 /* Cold.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cold.swift; sourceTree = "<group>"; };
+		9DBF4CCA242E3C0E008E9479 /* Warm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Warm.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9DBF4CA8242E252C008E9479 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9D1D7E8C24348662003E9732 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				9D1D7E8D24348685003E9732 /* HeaderModel.swift */,
+				9D1D7E982434AD17003E9732 /* WarmDrinksModel.swift */,
+				9D63DAA9243C7250000BD2A2 /* ColdDrinksModel.swift */,
+				9D63DA91243610AA000BD2A2 /* FactsModel.swift */,
+				9D7CFF7B243E0661006AF5BD /* MapModel.swift */,
+				9D63DA9924361CA9000BD2A2 /* BeansModel.swift */,
+				9D63DAA124377F2F000BD2A2 /* Landmark.swift */,
+				9D63DAA3243780F8000BD2A2 /* LandmarkAnnotation.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		9D1D7E8F243486A1003E9732 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				9D1D7E90243486D0003E9732 /* HeaderData.swift */,
+				9D1D7E942434A2F2003E9732 /* WarmData.swift */,
+				9D63DAA7243C71F0000BD2A2 /* ColdData.swift */,
+				9D63DA932436113F000BD2A2 /* FactsData.swift */,
+				9D63DA9724361C39000BD2A2 /* BeansData.swift */,
+				9D7CFF79243E05DD006AF5BD /* Map.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		9D63DA9B243638FD000BD2A2 /* Coordinators */ = {
+			isa = PBXGroup;
+			children = (
+				9D63DA9C2436391D000BD2A2 /* Coordinator.swift */,
+			);
+			path = Coordinators;
+			sourceTree = "<group>";
+		};
+		9D63DA9E24363AC6000BD2A2 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				9D63DA9F24363AFB000BD2A2 /* LocationManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		9DBF4CA2242E252C008E9479 = {
+			isa = PBXGroup;
+			children = (
+				9DBF4CAD242E252C008E9479 /* Black Gold */,
+				9DBF4CAC242E252C008E9479 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9DBF4CAC242E252C008E9479 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9DBF4CAB242E252C008E9479 /* Black Gold.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9DBF4CAD242E252C008E9479 /* Black Gold */ = {
+			isa = PBXGroup;
+			children = (
+				9D63DA9E24363AC6000BD2A2 /* Managers */,
+				9D63DA9B243638FD000BD2A2 /* Coordinators */,
+				9D1D7E8F243486A1003E9732 /* Data */,
+				9D1D7E8C24348662003E9732 /* Model */,
+				9DBF4CC5242E3BC3008E9479 /* View */,
+				9DBF4CAE242E252C008E9479 /* AppDelegate.swift */,
+				9DBF4CB0242E252C008E9479 /* SceneDelegate.swift */,
+				9DBF4CB5242E252C008E9479 /* ContentView.swift */,
+				9DBF4CB7242E252F008E9479 /* Assets.xcassets */,
+				9DBF4CBC242E252F008E9479 /* LaunchScreen.storyboard */,
+				9DBF4CBF242E252F008E9479 /* Info.plist */,
+				9DBF4CB2242E252C008E9479 /* Black_Gold.xcdatamodeld */,
+				9DBF4CB9242E252F008E9479 /* Preview Content */,
+			);
+			path = "Black Gold";
+			sourceTree = "<group>";
+		};
+		9DBF4CB9242E252F008E9479 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				9DBF4CBA242E252F008E9479 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		9DBF4CC5242E3BC3008E9479 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				9D1D7E962434AA0A003E9732 /* ColdRatingView.swift */,
+				9D63DAAD243C749F000BD2A2 /* WarmRatingsView.swift */,
+				9D63DA8F24361085000BD2A2 /* CoffeeFacts.swift */,
+				9DBF4CC6242E3BE7008E9479 /* Home.swift */,
+				9DBF4CC8242E3C03008E9479 /* Cold.swift */,
+				9D1D7E8224347D40003E9732 /* BeansView.swift */,
+				9D1D7E8424348357003E9732 /* BeansStages.swift */,
+				9D1D7E882434858A003E9732 /* World.swift */,
+				9D1D7E8A24348598003E9732 /* WorldDetail.swift */,
+				9D1D7E8624348546003E9732 /* HeaderView.swift */,
+				9DBF4CCA242E3C0E008E9479 /* Warm.swift */,
+				9D63DA95243614C5000BD2A2 /* WarmDetail.swift */,
+				9D63DAAB243C7389000BD2A2 /* ColdDetail.swift */,
+				9D1D7E9A2434B32C003E9732 /* WarmBeverageDetailView.swift */,
+				9D63DAAF243C7A7C000BD2A2 /* ColdBeverageDetailView.swift */,
+				9D1D7E9C2434D979003E9732 /* AppBaseView.swift */,
+				9D63DAA524378979000BD2A2 /* PlaceListView.swift */,
+				9DA56B652440C83B0079F05C /* CoffeeWorldView.swift */,
+				9D63DAB1243DBEB5000BD2A2 /* MapViewDetail.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9DBF4CAA242E252C008E9479 /* Black Gold */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9DBF4CC2242E252F008E9479 /* Build configuration list for PBXNativeTarget "Black Gold" */;
+			buildPhases = (
+				9DBF4CA7242E252C008E9479 /* Sources */,
+				9DBF4CA8242E252C008E9479 /* Frameworks */,
+				9DBF4CA9242E252C008E9479 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Black Gold";
+			productName = "Black Gold";
+			productReference = 9DBF4CAB242E252C008E9479 /* Black Gold.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9DBF4CA3242E252C008E9479 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1140;
+				LastUpgradeCheck = 1140;
+				ORGANIZATIONNAME = "Erik Kuipers";
+				TargetAttributes = {
+					9DBF4CAA242E252C008E9479 = {
+						CreatedOnToolsVersion = 11.4;
+					};
+				};
+			};
+			buildConfigurationList = 9DBF4CA6242E252C008E9479 /* Build configuration list for PBXProject "Black Gold" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9DBF4CA2242E252C008E9479;
+			productRefGroup = 9DBF4CAC242E252C008E9479 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9DBF4CAA242E252C008E9479 /* Black Gold */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9DBF4CA9242E252C008E9479 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9DBF4CBE242E252F008E9479 /* LaunchScreen.storyboard in Resources */,
+				9DBF4CBB242E252F008E9479 /* Preview Assets.xcassets in Resources */,
+				9DBF4CB8242E252F008E9479 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9DBF4CA7242E252C008E9479 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9DBF4CAF242E252C008E9479 /* AppDelegate.swift in Sources */,
+				9D1D7E972434AA0A003E9732 /* ColdRatingView.swift in Sources */,
+				9D63DAAE243C749F000BD2A2 /* WarmRatingsView.swift in Sources */,
+				9D63DA9D2436391D000BD2A2 /* Coordinator.swift in Sources */,
+				9D63DAA8243C71F0000BD2A2 /* ColdData.swift in Sources */,
+				9DBF4CB4242E252C008E9479 /* Black_Gold.xcdatamodeld in Sources */,
+				9D7CFF7C243E0661006AF5BD /* MapModel.swift in Sources */,
+				9DBF4CC7242E3BE7008E9479 /* Home.swift in Sources */,
+				9D1D7E8B24348598003E9732 /* WorldDetail.swift in Sources */,
+				9D1D7E9D2434D979003E9732 /* AppBaseView.swift in Sources */,
+				9D63DAA224377F2F000BD2A2 /* Landmark.swift in Sources */,
+				9D7CFF7A243E05DD006AF5BD /* Map.swift in Sources */,
+				9D1D7E8524348357003E9732 /* BeansStages.swift in Sources */,
+				9D63DA9A24361CA9000BD2A2 /* BeansModel.swift in Sources */,
+				9D1D7E9B2434B32C003E9732 /* WarmBeverageDetailView.swift in Sources */,
+				9D63DA92243610AA000BD2A2 /* FactsModel.swift in Sources */,
+				9D63DAB0243C7A7C000BD2A2 /* ColdBeverageDetailView.swift in Sources */,
+				9D63DAA624378979000BD2A2 /* PlaceListView.swift in Sources */,
+				9DA56B662440C83B0079F05C /* CoffeeWorldView.swift in Sources */,
+				9D63DAAA243C7250000BD2A2 /* ColdDrinksModel.swift in Sources */,
+				9DBF4CC9242E3C03008E9479 /* Cold.swift in Sources */,
+				9D63DAAC243C7389000BD2A2 /* ColdDetail.swift in Sources */,
+				9D1D7E8724348546003E9732 /* HeaderView.swift in Sources */,
+				9D63DA942436113F000BD2A2 /* FactsData.swift in Sources */,
+				9D63DAA4243780F8000BD2A2 /* LandmarkAnnotation.swift in Sources */,
+				9D1D7E8E24348685003E9732 /* HeaderModel.swift in Sources */,
+				9DBF4CB6242E252C008E9479 /* ContentView.swift in Sources */,
+				9D1D7E952434A2F2003E9732 /* WarmData.swift in Sources */,
+				9D63DAB2243DBEB5000BD2A2 /* MapViewDetail.swift in Sources */,
+				9D1D7E892434858A003E9732 /* World.swift in Sources */,
+				9D1D7E992434AD17003E9732 /* WarmDrinksModel.swift in Sources */,
+				9D63DA96243614C5000BD2A2 /* WarmDetail.swift in Sources */,
+				9DBF4CCB242E3C0E008E9479 /* Warm.swift in Sources */,
+				9DBF4CB1242E252C008E9479 /* SceneDelegate.swift in Sources */,
+				9D63DA9024361085000BD2A2 /* CoffeeFacts.swift in Sources */,
+				9D63DA9824361C39000BD2A2 /* BeansData.swift in Sources */,
+				9D1D7E91243486D0003E9732 /* HeaderData.swift in Sources */,
+				9D1D7E8324347D40003E9732 /* BeansView.swift in Sources */,
+				9D63DAA024363AFB000BD2A2 /* LocationManager.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		9DBF4CBC242E252F008E9479 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9DBF4CBD242E252F008E9479 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9DBF4CC0242E252F008E9479 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9DBF4CC1242E252F008E9479 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9DBF4CC3242E252F008E9479 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 3;
+				DEVELOPMENT_ASSET_PATHS = "Black\\ Gold/Preview\\ Content";
+				DEVELOPMENT_TEAM = 57973X84UC;
+				EMBED_ASSET_PACKS_IN_PRODUCT_BUNDLE = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Black Gold/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "eckodesign.eu.Black-Gold-Coffee";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9DBF4CC4242E252F008E9479 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 3;
+				DEVELOPMENT_ASSET_PATHS = "Black\\ Gold/Preview\\ Content";
+				DEVELOPMENT_TEAM = 57973X84UC;
+				EMBED_ASSET_PACKS_IN_PRODUCT_BUNDLE = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Black Gold/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "eckodesign.eu.Black-Gold-Coffee";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9DBF4CA6242E252C008E9479 /* Build configuration list for PBXProject "Black Gold" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9DBF4CC0242E252F008E9479 /* Debug */,
+				9DBF4CC1242E252F008E9479 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9DBF4CC2242E252F008E9479 /* Build configuration list for PBXNativeTarget "Black Gold" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9DBF4CC3242E252F008E9479 /* Debug */,
+				9DBF4CC4242E252F008E9479 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		9DBF4CB2242E252C008E9479 /* Black_Gold.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				9DBF4CB3242E252C008E9479 /* Black_Gold.xcdatamodel */,
+			);
+			currentVersion = 9DBF4CB3242E252C008E9479 /* Black_Gold.xcdatamodel */;
+			path = Black_Gold.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 9DBF4CA3242E252C008E9479 /* Project object */;
+}
