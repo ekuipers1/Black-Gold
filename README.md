@@ -1,21 +1,7 @@
 # SwiftUI-Example
 This is an example project of [SwiftUI](https://developer.apple.com/xcode/swiftui)
 
-
-<div class="row">
-  <div class="column">
-    <img src="./Base Assets/Screen Shot 1.png" alt="Snow" style="width:100%">
-  </div>
-  <div class="column">
-    <img src="./Base Assets/Screen Shot 2.png" alt="Forest" style="width:100%">
-  </div>
-  <div class="column">
-    <img src="./Base Assets/Screen Shot 3.png" alt="Snow" style="width:100%">
-  </div>
-  <div class="column">
-    <img src="./Base Assets/Screen Shot 4.png" alt="Forest" style="width:100%">
-  </div>
-</div>
+<img width="260" height="500" src="./Base Assests/Screen Shot 4.png">
 
 - Works with Dark / Light mode and all different device sizes.
 - Utilizing the option for adding custom colors.
