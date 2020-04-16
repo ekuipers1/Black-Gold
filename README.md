@@ -1,7 +1,7 @@
 # SwiftUI-Example
 This is an example project of [SwiftUI](https://developer.apple.com/xcode/swiftui)
 
-<img width="260" height="500" src="./Base Assests/Screen Shot 4.png">
+<img src="./Base Assests/App.png">
 
 - Works with Dark / Light mode and all different device sizes.
 - Utilizing the option for adding custom colors.
